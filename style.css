@@ -1,0 +1,264 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+/*banner*/
+
+.banner{
+    background-image:url(images/Plateaux-Medium.png);
+    background-position:center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.banner h1{
+    font-size: 64px;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.banner p {
+    font-size: 32px;
+    margin-bottom: 70px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+}
+
+.banner a{
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgba(77, 73, 73, 0.676);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 15px;
+}
+
+.banner a:hover{
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+}
+
+/* grid */
+
+.container{
+  margin: 40px auto;
+  width: 1000px;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+
+.container h2{
+  text-decoration: underline;
+  text-align: center; 
+  color: white;
+}
+
+/*bouton*/
+
+.btn-blanc{
+  display: block;
+  width: fit-content;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: rgba(77, 73, 73, 0.676);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 15px;
+    margin: 30px auto;
+  }
+
+.Card-black{
+    box-shadow: 0 10px 20px rgb(41, 40, 40);
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.Card-black p{
+    color: white
+}
+
+.Card-black a{
+    font-family: "ubuntu", serif;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgba(77, 73, 73, 0.676);
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.Card-black a:hover{
+background-color: rgb(251, 250, 250);
+color: rgb(0, 0, 0);
+}
+
+.Card-black h3{
+    color: white;
+}
+
+.Card-black img{
+    border-radius: 4px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+/*Double bloc*/ 
+
+.loyalty-section {
+    display: flex;
+    max-width: auto;
+    height: 1000px;
+    gap: 10px;
+  }
+  .loyalty-image {
+    flex: 1;
+    width: auto;
+    height: 50%;
+    display: flex;
+    }
+  
+  .loyalty-image img {
+    width: 100%; 
+    height: 1000px; 
+    border-radius: 2%;
+  }
+  
+  .loyalty-content {
+    flex: 1;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D2B48C; 
+    color: #333;
+    border-radius: 2%;
+  }
+
+  .loyalty-content h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+  }
+
+  .loyalty-content p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+  }
+
+  .loyalty-button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .loyalty-button:hover {
+    background-color: #000000;
+    color: white;
+  }
+
+  /*insta*/
+
+  .Instagram {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.Instagram h2{
+    font-size: 25px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    margin: auto 30px;
+  }
+
+.Instagram .instagram-feed {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+  .instagram-feed img {
+    width: 180px; 
+    height: auto;
+    border-radius: 10px; 
+    transition: 0.5s
+  }
+
+  .instagram-feed a :hover {
+transform: scale(1.1);
+  }
+
+  /*footer*/ 
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  .footer-signature h3 {
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-column h3 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .footer-column a {
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  .footer-column a:hover {
+    color: #fff;
+  }
+  .footer-column p {
+    max-width: 200px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
